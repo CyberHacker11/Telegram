@@ -1,0 +1,385 @@
+﻿<Window x:Class="Telegram.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:Telegram"
+        mc:Ignorable="d"
+        Title="MainWindow" Height="600" Width="1200" MinWidth="1200" MinHeight="600" MaxWidth="1200" MaxHeight="600">
+    <Grid>
+        <Grid.ColumnDefinitions>
+            <ColumnDefinition/>
+            <ColumnDefinition Width="355.875"/>
+            <ColumnDefinition Width="444.125"/>
+        </Grid.ColumnDefinitions>
+
+        <Grid>
+            <Grid.RowDefinitions>
+                <RowDefinition/>
+                <RowDefinition/>
+                <RowDefinition/>
+                <RowDefinition/>
+                <RowDefinition/>
+                <RowDefinition/>
+                <RowDefinition/>
+                <RowDefinition/>
+                <RowDefinition/>
+            </Grid.RowDefinitions>
+
+            <Grid Grid.Row="0">
+                <Grid.ColumnDefinitions>
+                    <ColumnDefinition Width="70"/>
+                    <ColumnDefinition/>
+                </Grid.ColumnDefinitions>
+
+                <Button Height="40" Width="40" BorderBrush="White" Margin="10,6,10,8">
+                    <Button.Background>
+                        <ImageBrush Stretch="Uniform" ImageSource="Hamburgher.png"/>
+                    </Button.Background>
+
+                </Button>
+
+                <TextBox
+                    Height="40"
+                    Width="200"
+                    Text="Search" 
+                    Grid.Column="1"
+                    FontSize="18"
+                    Foreground="Silver" 
+                    FontFamily="Verdana"
+                    Margin="0,0,60,0"
+                    Padding="6">
+                </TextBox>
+            </Grid>
+
+            <Grid Grid.Row="1">
+                <Grid.ColumnDefinitions>
+                    <ColumnDefinition Width="70"/>
+                    <ColumnDefinition/>
+                </Grid.ColumnDefinitions>
+                <Border Width="50" Height="44">
+                    <Border.Background>
+                        <ImageBrush Stretch="Uniform" ImageSource="user (3).png"/>
+                    </Border.Background>
+                </Border>
+                <Label
+                    Grid.Column="1"
+                Content="Eva Summer"
+                FontSize="20"
+                FontWeight="Bold"
+                FontFamily="Verdana"
+                Foreground="DarkGray"
+                Padding="10, 20, 0, 0"
+                Grid.Row="1">
+                </Label>
+            </Grid>
+            <Grid Grid.Row="2">
+                <Grid.ColumnDefinitions>
+                    <ColumnDefinition Width="70"/>
+                    <ColumnDefinition/>
+                </Grid.ColumnDefinitions>
+                <Border Width="50" Height="44">
+                    <Border.Background>
+                        <ImageBrush Stretch="Uniform" ImageSource="user (3).png"/>
+                    </Border.Background>
+                </Border>
+                <Label
+                    Grid.Column="1"
+                Content="Alexandra Smith"
+                FontSize="20"
+                FontWeight="Bold"
+                FontFamily="Verdana"
+                Foreground="DarkGray"
+                Padding="10, 20, 0, 0"
+                Grid.Row="1">
+                </Label>
+            </Grid>
+            <Grid Grid.Row="3">
+                <Grid.ColumnDefinitions>
+                    <ColumnDefinition Width="70"/>
+                    <ColumnDefinition/>
+                </Grid.ColumnDefinitions>
+                <Border Width="50" Height="44">
+                    <Border.Background>
+                        <ImageBrush Stretch="Uniform" ImageSource="user (3).png"/>
+                    </Border.Background>
+                </Border>
+                <Label
+                    Grid.Column="1"
+                Content="Mike Apple"
+                FontSize="20"
+                FontWeight="Bold"
+                FontFamily="Verdana"
+                Foreground="DarkGray"
+                Padding="10, 20, 0, 0"
+                Grid.Row="1">
+                </Label>
+            </Grid>
+            <Grid Grid.Row="4">
+                <Grid.ColumnDefinitions>
+                    <ColumnDefinition Width="70"/>
+                    <ColumnDefinition/>
+                </Grid.ColumnDefinitions>
+                <Border Width="50" Height="44">
+                    <Border.Background>
+                        <ImageBrush Stretch="Uniform" ImageSource="user (3).png"/>
+                    </Border.Background>
+                </Border>
+                <Label
+                    Grid.Column="1"
+                Content="Max Bright"
+                FontSize="20"
+                FontWeight="Bold"
+                FontFamily="Verdana"
+                Foreground="DarkGray"
+                Padding="10, 20, 0, 0"
+                Grid.Row="1">
+                </Label>
+            </Grid>
+            <Grid Grid.Row="5">
+                <Grid.ColumnDefinitions>
+                    <ColumnDefinition Width="70"/>
+                    <ColumnDefinition/>
+                </Grid.ColumnDefinitions>
+                <Border Width="50" Height="44">
+                    <Border.Background>
+                        <ImageBrush ImageSource="user (3).png"/>
+                    </Border.Background>
+                </Border>
+                <Label
+                    Grid.Column="1"
+                Content="Alan Wake"
+                FontSize="20"
+                FontWeight="Bold"
+                FontFamily="Verdana"
+                Foreground="DarkGray"
+                Padding="10, 20, 0, 0"
+                Grid.Row="1">
+                </Label>
+            </Grid>
+            <Grid Grid.Row="6">
+                <Grid.ColumnDefinitions>
+                    <ColumnDefinition Width="70"/>
+                    <ColumnDefinition/>
+                </Grid.ColumnDefinitions>
+                <Border Width="50" Height="44">
+                    <Border.Background>
+                        <ImageBrush Stretch="Uniform" ImageSource="user (3).png"/>
+                    </Border.Background>
+                </Border>
+                <Label
+                    Grid.Column="1"
+                Content="Nelly Furtado"
+                FontSize="20"
+                FontWeight="Bold"
+                FontFamily="Verdana"
+                Foreground="DarkGray"
+                Padding="10, 20, 0, 0"
+                Grid.Row="1">
+                </Label>
+            </Grid>
+            <Grid Grid.Row="7">
+                <Grid.ColumnDefinitions>
+                    <ColumnDefinition Width="70"/>
+                    <ColumnDefinition/>
+                </Grid.ColumnDefinitions>
+                <Border Width="50" Height="44">
+                    <Border.Background>
+                        <ImageBrush Stretch="Uniform" ImageSource="user (3).png"/>
+                    </Border.Background>
+                </Border>
+                <Label
+                    Grid.Column="1"
+                Content="Justin Timberlake"
+                FontSize="20"
+                FontWeight="Bold"
+                FontFamily="Verdana"
+                Foreground="DarkGray"
+                Padding="10, 20, 0, 0"
+                Grid.Row="1">
+                </Label>
+            </Grid>
+            <Grid Grid.Row="8">
+                <Grid.ColumnDefinitions>
+                    <ColumnDefinition Width="70"/>
+                    <ColumnDefinition/>
+                </Grid.ColumnDefinitions>
+                <Border Width="50" Height="44">
+                    <Border.Background>
+                        <ImageBrush Stretch="Uniform" ImageSource="user (3).png"/>
+                    </Border.Background>
+                </Border>
+                <Label
+                    Grid.Column="1"
+                Content="Lil Jon"
+                FontSize="20"
+                FontWeight="Bold"
+                FontFamily="Verdana"
+                Foreground="DarkGray"
+                Padding="10, 20, 0, 0"
+                Grid.Row="1">
+                </Label>
+            </Grid>
+        </Grid>
+
+        <Grid Grid.Column="1" Grid.ColumnSpan="2">
+            <Grid.RowDefinitions>
+                <RowDefinition Height="64"/>
+                <RowDefinition/>
+                <RowDefinition Height="64"/>
+            </Grid.RowDefinitions>
+
+            <Border Grid.Row="1">
+                <Border.Background>
+                    <ImageBrush ImageSource="tinybirdgames_telegram_background_02.jpg"/>
+                </Border.Background>
+                <Grid>
+                    <Label
+                    Content="00:09"
+                    FontSize="10"
+                    FontWeight="Bold"
+                    FontFamily="Verdana"
+                    Padding="12,30,0,0"/>
+
+                    <Label
+                    Content="Hi Tony"
+                    FontSize="20"
+                    FontWeight="Bold"
+                    FontFamily="Verdana"
+                    Padding="60,28,0,0"/>
+
+                    <Label
+                    Content="00:09"
+                    FontSize="10"
+                    FontWeight="Bold"
+                    FontFamily="Verdana"
+                    Padding="450,80,0,0"/>
+
+                    <Label
+                    Content="Ooo Natalia how are you?"
+                    FontSize="20"
+                    FontWeight="Bold"
+                    FontFamily="Verdana"
+                    Padding="500,80,0,0"/>
+
+                    <Label
+                    Content="00:09"
+                    FontSize="10"
+                    FontWeight="Bold"
+                    FontFamily="Verdana"
+                    Padding="12,140,0,0"/>
+
+                    <Label
+                    Content="Im Fine, how are you?"
+                    FontSize="20"
+                    FontWeight="Bold"
+                    FontFamily="Verdana"
+                    Padding="60,140,0,0"/>
+
+                    <Label
+                    Content="00:10"
+                    FontSize="10"
+                    FontWeight="Bold"
+                    FontFamily="Verdana"
+                    Padding="610,200,0,0"/>
+
+                    <Label
+                    Content="Im fine too"
+                    FontSize="20"
+                    FontWeight="Bold"
+                    FontFamily="Verdana"
+                    Padding="660,200,0,0"/>
+
+                    <Label
+                    Content="00:12"
+                    FontSize="10"
+                    FontWeight="Bold"
+                    FontFamily="Verdana"
+                    Padding="12,260,0,0"/>
+
+                    <Label
+                    Content="What are you doing?"
+                    FontSize="20"
+                    FontWeight="Bold"
+                    FontFamily="Verdana"
+                    Padding="60,260,0,0"/>
+
+                </Grid>
+            </Border>
+
+            <Grid>
+                <Grid.ColumnDefinitions>
+                    <ColumnDefinition Width="660"/>
+                    <ColumnDefinition Width="70"/>
+                    <ColumnDefinition Width="70"/>
+                </Grid.ColumnDefinitions>
+
+                <Label
+                    Content="Tony Richard"
+                    FontSize="18"
+                    FontWeight="Bold"
+                    FontFamily="Verdana"
+                    Padding="15, 10, 0, 0">
+                </Label>
+                <Label
+                    Content="Online"
+                    FontSize="14"
+                    FontFamily="Verdana"
+                    Foreground="#FF7C7B7B"
+                    Padding="15, 38, 0, 0">
+                </Label>
+
+                <Button Grid.Column="1" Width="30" Height="44" BorderBrush="White">
+                    <Button.Background>
+                        <ImageBrush Stretch="Uniform" ImageSource="search.png"/>
+                    </Button.Background>
+                </Button>
+
+                <Button Grid.Column="2" Width="30" Height="24" BorderBrush="White">
+                    <Button.Background>
+                        <ImageBrush ImageSource="more.png"/>
+                    </Button.Background>
+
+                </Button>
+            </Grid>
+
+            <Grid Height="120" Grid.Row="2">
+                <Grid.ColumnDefinitions>
+                    <ColumnDefinition Width="70"/>
+                    <ColumnDefinition Width="560"/>
+                    <ColumnDefinition Width="70"/>
+                    <ColumnDefinition Width="100"/>
+                </Grid.ColumnDefinitions>
+
+                <Button Margin="0,0,0,57" Height="40" Width="40" BorderBrush="White" >
+                    <Button.Background>
+                        <ImageBrush Stretch="Uniform" ImageSource="paper-clip.png"/>
+                    </Button.Background>
+                </Button>
+
+                <Button Grid.Column="3" Height="40" Width="40" Margin="30,12,30,68" BorderBrush="White">
+                    <Button.Background>
+                        <ImageBrush ImageSource="microphone.png"/>
+                    </Button.Background>
+
+                </Button>
+
+                <Button Grid.Column="2"  Height="40" Width="40" Margin="15,12,15,68" BorderBrush="White">
+                    <Button.Background>
+                        <ImageBrush Stretch="Uniform" ImageSource="laughter.png"/>
+                    </Button.Background>
+
+                </Button>
+
+                <TextBox 
+                    Text="Write a message" 
+                    Foreground="Silver" 
+                    Grid.Column="1"
+                    FontSize="18"
+                    FontFamily="Verdana"
+                    Padding="20">
+                </TextBox>
+            </Grid>
+        </Grid>
+    </Grid>
+</Window>
